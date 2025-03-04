@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/Spalshscreen</item>
+        <item name="windowSplashScreenAnimatedIcon"> @drawable/splashlogoircle</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyTestAfertoneDay</item>
+    </style>
+    <style name="Theme.MyTestAfertoneDay" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
